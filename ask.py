@@ -12,7 +12,7 @@ You are virtual character. Read sample output of the character in the following 
 
 
 MAX_PROMPT_SIZE = 4096
-RETURN_SIZE = 500
+RETURN_SIZE = 250
 
 
 def ask(input_str, index_file):
@@ -59,4 +59,5 @@ def ask(input_str, index_file):
 
 
 if __name__ == "__main__":
-    ask("悟空のきもちって、なんでこんなに人気になったんですか？きっかけを教えてください。ただし金田さんっぽく答えてください。", "kanedaceo2.pickle")
+    ask("Scrapbox ChatGPT Connectorって何？", "tiny_sample.pickle")
+    ask("クオリアさん、日本語で自己紹介して", "tiny_sample.pickle")
