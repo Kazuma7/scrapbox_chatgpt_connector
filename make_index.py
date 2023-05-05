@@ -123,7 +123,7 @@ class VectorStore:
 
 if __name__ == "__main__":
     # Sample default arguments for update_from_scrapbox()
-    JSON_FILE = "from_scrapbox/tiny_sample.json"
-    INDEX_FILE = "tiny_sample.pickle"
+    JSON_FILE = "from_scrapbox/kanedaceo2.json"
+    INDEX_FILE = "kanedaceo2.pickle"
 
     update_from_scrapbox(JSON_FILE, INDEX_FILE)
